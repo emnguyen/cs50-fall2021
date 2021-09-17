@@ -10,6 +10,6 @@ Welcome to my section resources! 👋🏻 Click on any week below to access slid
 ## Class Collaborative Spotify Playlist
 - Add any songs you want to hear before class to [this Spotify playlist](https://open.spotify.com/playlist/2l6MarqdviEWs4U6jHJTQU?si=0e8d43670e574fc5)! 🎶
 ## Weeks
-[Week 2: Arrays 📚](https://github.com/emnguyen/cs50/blob/main/weeks/week2.md)
+[📚 Week 2: Arrays](https://github.com/emnguyen/cs50/blob/main/weeks/week2.md)
 
-[Week 3: Algorithms 📭](https://github.com/emnguyen/cs50/blob/main/weeks/week3.md)
+[📭 Week 3: Algorithms](https://github.com/emnguyen/cs50/blob/main/weeks/week3.md)
