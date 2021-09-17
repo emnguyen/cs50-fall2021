@@ -6,7 +6,7 @@
 - Strings
 - Command-Line Arguments
 
-## [Exercises](https://github.com/emnguyen/cs50/blob/main/week2-exercises.md)
+## [Exercises](https://github.com/emnguyen/cs50/blob/main/exercises/week2-exercises.md)
 
 ## Lab
 
