@@ -1,3 +1,5 @@
+## Section Exercises
+
 ### Factorial
 
 Write a recursive function `factorial` that takes an integer `n` and computes its factorial. (The factorial of 5, for example, is 5 * 4 * 3 * 2 * 1 = 120).
