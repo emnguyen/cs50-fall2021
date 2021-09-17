@@ -10,4 +10,4 @@ Welcome to my section resources! Click on any week below to access slides, pract
 ## Class Collaborative Spotify Playlist
 - Add any songs you want to hear before class to [this Spotify playlist](https://open.spotify.com/playlist/2l6MarqdviEWs4U6jHJTQU?si=0e8d43670e574fc5)!
 ## Weeks
-[Week 2: Arrays](https://www.notion.so/Week-2-Arrays-dd25c43223fa40e28e40021b744be63b)
+[Week 2: Arrays](https://github.com/emnguyen/cs50/blob/main/weeks/week2.md)
