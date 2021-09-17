@@ -1,4 +1,5 @@
-## [Slides](https://docs.google.com/presentation/d/1Shgz7XlbMSL6vb7n8x6D3O1rcL2ODfo3T3tBZyouT-M/edit?usp=sharing)
+## Slides
+- Slides can be found [here](https://docs.google.com/presentation/d/1Shgz7XlbMSL6vb7n8x6D3O1rcL2ODfo3T3tBZyouT-M/edit?usp=sharing).
 
 ## Topics of the Week
 
@@ -6,7 +7,8 @@
 - Strings
 - Command-Line Arguments
 
-## [Exercises](https://github.com/emnguyen/cs50/blob/main/exercises/week2-exercises.md)
+## Exercises
+- Exercises can be found [here](https://github.com/emnguyen/cs50/blob/main/exercises/week2-exercises.md).
 
 ## Lab
 
