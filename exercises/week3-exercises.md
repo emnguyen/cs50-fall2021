@@ -1,4 +1,4 @@
-## Section Exercises
+## Section 3 Exercises
 
 ### Factorial
 
