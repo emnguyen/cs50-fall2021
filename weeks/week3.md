@@ -14,7 +14,7 @@
 
 ## Lab
 
-- ***[Scrabble](https://cs50.harvard.edu/college/2021/fall/labs/2/)***
+- ***[Sort](https://cs50.harvard.edu/college/2021/fall/labs/3/)***
 
 ## Extra Resources
 
