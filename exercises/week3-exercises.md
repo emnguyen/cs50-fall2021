@@ -4,11 +4,11 @@
 
 Write a recursive function `factorial` that takes an integer `n` and computes its factorial. (The factorial of 5, for example, is 5 * 4 * 3 * 2 * 1 = 120).
 
-### Fibonacci
+### Fibonacci (on your own time)
 
 Write a recursive function `fib` that computes the `n`th Fibonacci number. The 0th Fibonacci number is 0, the 1st Fibonacci number is 1, and every subsequent Fibonacci number is sum of the two preceding Fibonacci numbers.
     
-### Binary Search
+### Binary Search (on your own time)
 
 Write a recursive function `search` that takes in four inputs, a `value` to search for, a sorted array of `values`, a `start` index, and an `end` index. The function should perform binary search, returning `true` if the number is found between the `start` and `end` index, and `false` otherwise.
 
@@ -21,7 +21,7 @@ bool search(int value, int values[], int start, int end)
 }
 ```
 
-### Bubble Sort
+### Bubble Sort (on your own time)
 
 Write a program `bubble.c` that sorts an array of integers using bubble sort.
 
@@ -51,7 +51,7 @@ Write a program `bubble.c` that sorts an array of integers using bubble sort.
     }
     ```
 
-### Selection Sort
+### Selection Sort (on your own time)
 
 Write a program `selection.c` that sorts an array of integers using selection sort.
 
