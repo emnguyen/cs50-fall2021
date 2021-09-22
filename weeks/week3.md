@@ -2,7 +2,7 @@
 - Questions on how to maximize design? Check [here](https://docs.google.com/document/d/1WIzuNSzDkkEihfdEpXNVHYlbXS5HZrh9UrItfutb2cM/edit).
 
 ## Slides
-- Slides can be found [here](https://docs.google.com/presentation/d/1Shgz7XlbMSL6vb7n8x6D3O1rcL2ODfo3T3tBZyouT-M/edit?usp=sharing).
+- Slides can be found [here](https://docs.google.com/presentation/d/1CAa-fjEsmMx6EIX0quEEMid_s3iHFAr5JLrRrKicWLk/edit?usp=sharing).
 
 ## Topics of the Week
 
