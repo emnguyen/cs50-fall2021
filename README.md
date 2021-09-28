@@ -13,3 +13,5 @@ Welcome to my section resources! 👋🏻 Click on any week below to access slid
 [📚 Week 2: Arrays](https://github.com/emnguyen/cs50/blob/main/weeks/week2.md)
 
 [📭 Week 3: Algorithms](https://github.com/emnguyen/cs50/blob/main/weeks/week3.md)
+
+[💭 Week 4: Memory](https://github.com/emnguyen/cs50/blob/main/weeks/week4.md)
