@@ -1,5 +1,5 @@
 ## Slides
-- Slides can be found [here](https://docs.google.com/presentation/d/1CAa-fjEsmMx6EIX0quEEMid_s3iHFAr5JLrRrKicWLk/edit?usp=sharing).
+- Slides can be found [here](https://drive.google.com/file/d/17-Q-G7VVjlwLvSyQ-5l04dfCJH97-ELl/view?usp=sharing). Slides courtesy of Phyllis Zhang, another CS50 TF.
 
 ## Topics of the Week
 
