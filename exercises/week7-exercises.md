@@ -34,7 +34,7 @@ INSERT INTO people (name) VALUES ("Alice");
 
 ### Using SELECT
 
-- Write `SELECT` queries to answer these questions:
+- Write `SELECT` queries to answer these questions (Do the first 3, then move on the next part. If you have time, return to these and do the rest!)
 
 ```sql
 -- What is Alice's student id?
