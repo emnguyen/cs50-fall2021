@@ -14,3 +14,5 @@ Welcome to my section resources! 👋🏻 Click on any week below to access slid
 [💭 Week 4: Memory](https://github.com/emnguyen/cs50/blob/main/weeks/week4.md)
 
 [📚 Week 5: Data Structures](https://github.com/emnguyen/cs50/blob/main/weeks/week5.md)
+
+[💬 Week 7: SQL](https://github.com/emnguyen/cs50/blob/main/weeks/week7.md)
