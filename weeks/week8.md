@@ -1,5 +1,5 @@
 ## Slides
-- Slides can be found [here](https://docs.google.com/presentation/d/1fG5C2PpTxrneT46waL53RVRr16bzIQdCMGzfu981PcM/edit?usp=sharing).
+- Slides can be found [here](https://docs.google.com/presentation/d/1Lt2U0lFGAOopuwEtw5Il1UXctwjkyKIlAJx8D39ybXg/edit?usp=sharing).
 
 ## Topics of the Week
 
