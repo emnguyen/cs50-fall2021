@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            // The methodology for this solution is that we create two functions: one to check multiple choice, and one to check FRQ.
+            // We find the button that triggered the event, check if it's inner HTML matches the answer, and turn it green if so, red if not.
+            // The function is basically the same for the FRQ as well.
+
+            // Here is our multiple choice function
+            function checkMultipleChoice(event) {
+
+                // We find the element that triggered the event, let's call it button. As we'll see in the HTML code, we had the buttons themselves
+                // trigger the events, so the button variable is the button from HTML.
+                let button = event.target; 
+
+                // We check if the button's innerHTML (what is between the tags) is equal to the correct answer (line 22).
+                // If it is equal (correct), then we change the background color (button.style.backgroundColor) to green.
+                // We also want to change the inner HTML of the paragraph to say 'Correct!', which we do by going to the parent element of our button,
+                // which is <div class="section">, and we search for what has 
+                if (button.innerHTML == '1 person per 6 sheep') {
+                    button.style.backgroundColor = 'Green';
+                    button.parentElement.querySelector('.feedback').innerHTML = 'Correct!';
+                } 
+
+                else {
+                    button.style.backgroundColor = 'Red';
+                    button.parentElement.querySelector('.feedback').innerHTML = 'Incorrect';
+                }
+            }
+
+            function checkFreeResponse(event) {
+
+                // Get the element which triggered the event
+                let button = event.target;
+
+                // Get the input element corresponding to the button
+                let input = button.parentElement.querySelector('input');
+
+                // Check for correct answer
+                if (input.value === 'Switzerland') {
+                    input.style.backgroundColor = 'Green';
+                    input.parentElement.querySelector('.feedback').innerHTML = 'Correct!';
+                } 
+
+                else {
+                    input.style.backgroundColor = 'Red';
+                    input.parentElement.querySelector('.feedback').innerHTML = 'Incorrect';
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+
+                <h3>What is the approximate ratio of people to sheep in New Zealand?</h3>
+                <button onclick="checkMultipleChoice(event)">6 people per 1 sheep</button>
+                <button onclick="checkMultipleChoice(event)">3 people per 1 sheep</button>
+                <button onclick="checkMultipleChoice(event)">1 person per 1 sheep</button>
+                <button onclick="checkMultipleChoice(event)">1 person per 3 sheep</button>
+                <button onclick="checkMultipleChoice(event)">1 person per 6 sheep</button>
+                <p class="feedback"></p>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+
+                <h3>In which country is it illegal to own only one guinea pig, as a lone guinea pig might get lonely?</h3>
+                <input type="text"></input>
+                <button onclick="checkFreeResponse(event)">Check Answer</button>
+                <p class="feedback"></p>
+
+            </div>
+        </div>
+    </body>
+</html>
