@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            // For an outline of what we're doing: we first check for whether anything with the "correct" class has been clicked,
+            // and if so we turn the background color of that button to green and say 'Correct!'. The same for whether "incorrect" has been clicked.
+            // The same follows for the free response, and I'll get into the details down there.
+
+            // We first need to check that the content of the website has been loaded, which will activate this searching.
+            document.addEventListener('DOMContentLoaded', function() {
+
+                // Here, we create a variable called correct, which is basically the button of the correct answer, which we find using
+                // document.querySelector and we want to use '.correct' since we used a class for that button.
+                // Then, we add an event listener to check if the correct button has been clicked. When it has been clicked, we run this
+                // function that will change the background color of the button to green (line 24). We also want it to say 'Correct!'
+                // which we do by selecting the tag that has '#feedback1', which is the paragraph tag after the buttons, and change what
+                // is inside to say 'Correct!' (it was empty before). And then we are done if the correct button was clicked!
+                let correct = document.querySelector('.correct');
+                correct.addEventListener('click', function() {
+                    correct.style.backgroundColor = 'green';
+                    document.querySelector('#feedback1').innerHTML = 'Correct!';
+                });
+
+                // The process is basically the same for if the incorrect button has been clicked. The only difference is that we have more than
+                // one incorrect answer, so we instead need to use document.querySelectorAll, and we place all of the buttons that have the incorrect
+                // class into an array (line 33). Then, we want to loop through the array (line 34), and do the same thing as the correct, where
+                // we check if it has been clicked and change the background to red and the innerHTML to say 'Incorrect'. One thing to note is that
+                // everything is case sensitive, so make sure you're careful about that!
+                let incorrect = document.querySelectorAll('.incorrect');
+                for (let i = 0; i < incorrect.length; i++) {
+                    incorrect[i].addEventListener('click', function() {
+                        incorrect[i].style.backgroundColor = 'red';
+                        document.querySelector('#feedback1').innerHTML = 'Incorrect';
+                    });
+                }
+
+                // Last thing we want to do is check the free response question. We're searching for the tag with the id 'check', which is the button
+                // the user presses to check the FRQ. When this button has been clicked, we then activate this function.
+                // Within the function, we first declare this variable "input," which is just the input of what has been put in the text box. We
+                // are able to access this by selecting the "input" tag, and we know that there's only one.
+                // Then, we check if the input is equal to whatever phrase is the correct phrase. If it is correct, we change the background of the
+                // box to green (line 52) by changing the style, and then change the innerHTML of the paragraph tag to correct.
+                // If it's not equal to the correct answer, then, we change the background color to red (line 57) and say 'Incorrect' (line 57).
+                document.querySelector('#check').addEventListener('click', function() {
+                    let input = document.querySelector('input');
+                    if (input.value === 'Eliot') {
+                        input.style.backgroundColor = 'green';
+                        document.querySelector('#feedback2').innerHTML = 'Correct!';
+                    } else {
+                        input.style.backgroundColor = 'red';
+                        document.querySelector('#feedback2').innerHTML = 'Incorrect';
+                    }
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>How many lines did Aurora have in Sleeping Beauty?</h3>
+
+                <!-- We give the incorrect answers the "incorrect" class, so that we can access them above in the JavaScript code.-->
+                <!-- Same goes for the single correct answer. -->
+                <button class="incorrect">7</button>
+                <button class="incorrect">12</button>
+                <button class="correct">18</button>
+                <button class="incorrect">29</button>
+
+                <!-- This is the tag that will allow us to say "Correct!" or "Incorrect". Right now, there is nothing in it, because-->
+                <!-- we don't want anything to show up. We give it the id "feedback1" so that we can access it in JavaScript, -->
+                <!-- and then in the JavaScript code we change the inner HTML (what is between the tags) to say correct/incorrect. -->
+                <p id="feedback1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+
+                <h3>Which house is the best house?</h3>
+
+                <!-- Here, we want an input box, and we set the type to "text" so that it provides us with a text box. -->
+                <input type="text"></input>
+
+                <!-- This is the button that checks the answer. We give it the "check" id so that we can access it in the JS code.-->
+                <button id="check">Check Answer</button>
+
+                <!-- Same type of feedback paragraph tag as the multiple choice question!-->
+                <p id="feedback2"></p>
+            </div>
+        </div>
+    </body>
+</html>
