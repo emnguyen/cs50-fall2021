@@ -18,3 +18,5 @@ Welcome to my section resources! 👋🏻 Click on any week below to access slid
 [💬 Week 7: SQL](https://github.com/emnguyen/cs50/blob/main/weeks/week7.md)
 
 [🖥 Week 8: HTML, CSS, JavaScript](https://github.com/emnguyen/cs50/blob/main/weeks/week8.md)
+
+[📄 Week 9: Flask, Jinja](https://github.com/emnguyen/cs50/blob/main/weeks/week9.md)
